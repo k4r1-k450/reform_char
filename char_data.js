@@ -1,4 +1,4 @@
-{
+export const char_data = {
     "Upper" : {
         "Selif" : {
             "Bold" : "1d400",
