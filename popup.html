@@ -8,12 +8,35 @@
     <body>
         <label for="input">変換する英数字を入力:</label>
         <input type="text" id="input" name="input">
-        <p>
-            <input type="radio" name="font" value="Selif">Selif
-            <input type="radio" name="font" value="Suns_Selif">Suns Selif
-            <input type="radio" name="font" value="Cursive">Cursive
-            <input type="radio" name="font" value="Monospace">Monospace
-        </p>
+        
+        <table>
+              <tr>
+                <td colspan="2">変換先のフォントを指定</td>
+              </tr>
+            <tbody>
+              <tr>
+                <td><input type="radio" name="font" value="Selif">Selif</td>
+                <td><input type="radio" name="font" value="Suns_Selif">Suns Selif</td>
+              </tr>
+              <tr>
+                <td><input type="radio" name="font" value="Cursive">Cursive</td>
+                <td><input type="radio" name="font" value="Monospace">Monospace</td>
+              </tr>
+            </tbody>
+              <tr>
+                <td colspan="2">変換先の書体を指定</td>
+              </tr>
+            <tbody>
+              <tr>
+                <td><input type="radio" name="type" value="Normal">通常</td>
+                <td><input type="radio" name="type" value="Bold">太字</td>
+              </tr>
+              <tr>
+                <td><input type="radio" name="type" value="Italic">斜体</td>
+                <td><input type="radio" name="type" value="Bold_Italic">太字+斜体</td>
+              </tr>
+            </tbody>
+        </table>
         <button id="button">変換</button>
         <div id="output"></div>
     </body>
