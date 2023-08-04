@@ -9,7 +9,7 @@ export const char_data = {
             "Normal" : "1d5a0",
             "Bold" : "1d5d4",
             "Italic" : "1d608",
-            "Bold_Italic" : "id63c"
+            "Bold_Italic" : "1d63c"
         },
         "Cursive" : {
             "Normal" : "1d49c",
@@ -23,13 +23,13 @@ export const char_data = {
         "Selif" : {
             "Bold" : "1d41a",
             "Italic" : "1d44e",
-            "Bold_Italic" : "id482"
+            "Bold_Italic" : "1d482"
         },
         "Suns_Selif" : {
             "Normal" : "1d5ba",
             "Bold" : "1d5ee",
             "Italic" : "1d622",
-            "Bold_Italic" : "id656"
+            "Bold_Italic" : "1d656"
         },
         "Cursive" : {
             "Normal" : "1d4b6",
